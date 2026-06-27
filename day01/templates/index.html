@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Day1</title>
+</head>
+<body>
+    {% if name == "璃空" %}
+    <p>管理者です</p>
+{% endif %}
+{% for item in items %}
+    <p>{{ item }}</p>
+{% endfor %}
+    <h1>こんにちは、{{ name }}さん</h1>
+    <p>Flaskのテンプレートです</p>
+</body>
+</html>
